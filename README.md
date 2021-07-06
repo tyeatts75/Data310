@@ -1,6 +1,6 @@
 # Index Applied Machine Learning
 
-##Informal Exercises
+## Informal Exercises
 
 - Module 1 
   
@@ -9,7 +9,7 @@
 - Module 2
 
 
-##Projects
+## Projects
 
 - Project 1
 
