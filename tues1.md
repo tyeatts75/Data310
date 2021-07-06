@@ -1,4 +1,4 @@
-##Tuesday (7/6) Response
+## Tuesday (7/6) Response
 
 - What is the shape of the images training set (how many and the dimension of each)?
 
