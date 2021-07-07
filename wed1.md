@@ -18,6 +18,7 @@
       - predictions[50]:  array([4.2334945e-05, 2.7757805e-08, 4.8826568e-02, 6.8814859e-10,
        4.1657707e-01, 3.3460002e-13, 5.3455389e-01, 5.8882500e-13,
        7.5764532e-08, 3.8225739e-08])
+
 - This array represents the confidence our model has in each of the different clothing types being present in image 51.
 - Within this section softmax was used in the first line of code to help convert the logit's 
   that were created earlier into probabilities. It also normalizes the data to be between 0 and 1, 
