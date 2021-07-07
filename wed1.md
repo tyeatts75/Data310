@@ -64,7 +64,6 @@ predicted label as well as the image itself.
 ![img_6.png](img_6.png)
 - This model currently has a test accuracy: 0.9764999747276306 and a training accuracy: 0.9941499829292297
 ![img_7.png](img_7.png)
-  
 ![img_8.png](img_8.png)
 
 
