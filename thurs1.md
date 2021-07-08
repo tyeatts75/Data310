@@ -4,7 +4,7 @@
 Interpret the plots. How is this model performing?
 
 ![img_9.png](img_9.png)
-![img_10.png](img_10.png)
+![img_13.png](img_13.png)
 -  Basing it off the plots, our model seems to be fit pretty well in regards to the loss. There is a slight point where
 it drifts away towards the middle, but it's not by much and gets backs on track very quickly. Shifting focus to the
    accuracy plot there does seem to be some trouble. The validation accuracy starts very off track before shifting
