@@ -8,7 +8,7 @@
   
   - [Wednesday Response](wed1.md)
   
-  - [Thursday Response]()
+  - [Thursday Response](thurs1.md)
 
 - Module 2
 
