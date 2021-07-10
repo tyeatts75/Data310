@@ -3,6 +3,7 @@
 (1) How did your model fare?
 
 ![img_15.png](img_15.png)
+![img_18.png](img_18.png)
 -  
 
 (2) In your estimation is there a particular variable that may improve model performance?
