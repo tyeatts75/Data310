@@ -14,7 +14,7 @@ had planned to use Chicago, but I noticed too many outliers and variance in the 
 (2) In your estimation is there a particular variable that may improve model performance?
 
 -  Regarding an additional variable that could improve the model, I believe that finding a way to specify where in a
-city a home is located could be very helpful. For instance, the reason my initial attempt at using chicago didn't work
+city a home is located could be very helpful. For instance, the reason my initial attempt at using Chicago didn't work
    is because there is a significant price difference between southside and downtown Chicago for example. To elaborate
    further, 2 bedrooms, 2 bathrooms, and 2000 square feet will cost much different depending on where it is located. 
    To help the model improve an extra feature such as zip code would be very helpful. This would allow the model to 
@@ -25,9 +25,18 @@ Did your model trend towards over or under predicting home values?
 
 -  The predictions closer to the lower price ranges tended to be much more accurate. This would equate to homes within
 the lower percentiles to be much more accurate. In regards to over and under predicting values, it appears that there is
-   about an even mix of both amongst the predictions.
+   about an even mix of both amongst the predictions. The specific home that performed the best had a real price of
+   $299,900 and a predicted price of $299,302.89. This was a nearly spot on prediction; the features of the home were
+   1 bathroom, 2 bedrooms, and 1,075 square feet. This differs very much from the worst performance , which had a true
+   price of $4,400,000 and a predicted value of $1,458,687.88. This high end home had 2 bathrooms, 4 bedrooms, and 3,349
+   square feet. The 13 worst performing homes all had a price above $500,000, while the 8 of the 10 best were all under
+   $400,000. To show further stats, 3 of the 5 best were under $300,000
 
 (4) Which feature appears to be the most significant predictor?
 
-- The feature that appears to be most strongly correlated to the price is livingArea. 
+![img_11.png](img_11.png)
+- The feature that appears to be most strongly correlated to the price is livingArea. As can be seen in the heatmap
+above, livingArea is much more correlated to both price and predicted price. The higher the livingArea, the more
+  expensive the home seems to cost. The four most expensive houses also have the highest square footage. On the 
+  opposite end, all homes with less than 1,500 square feet cost far less than $400,000: minus two outliers. 
  
