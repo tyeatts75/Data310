@@ -15,9 +15,9 @@ had planned to use Chicago, but I noticed too many outliers and variance in the 
 
 -  Regarding an additional variable that could improve the model, I believe that finding a way to specify where in a
 city a home is located could be very helpful. For instance, the reason my initial attempt at using Chicago didn't work
-   is because there is a significant price difference between southside and downtown Chicago for example. To elaborate
+   is because there is a significant price difference between southside and downtown Chicago, for example. To elaborate
    further, 2 bedrooms, 2 bathrooms, and 2000 square feet will cost much different depending on where it is located. 
-   To help the model improve an extra feature such as zip code would be very helpful. This would allow the model to 
+   To help the model improve, an extra feature such as zip code would be very helpful. This would allow the model to 
    analyze which homes are in which zip and then determine an adequate price. 
 
 (3) Which of the predictions were the most accurate? In which percentile do these most accurate predictions reside?
