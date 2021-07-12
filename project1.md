@@ -9,7 +9,7 @@ had planned to use Chicago, but I noticed too many outliers and variance in the 
    switch locations. The model for homes in Charlottesville fared pretty well, with many of the lower value homes 
    doing very well. When it came to the higher value homes there was a much higher variance in success, as can be seen
    on the plot. Also, when looking at the loss it has a large drop after the first few epochs, but then a very staticy
-   up and down trend can be noticed.
+   up and down trend can be noticed. It also should be mentioned that the model had a very high mse of 303.
 
 (2) In your estimation is there a particular variable that may improve model performance?
 
