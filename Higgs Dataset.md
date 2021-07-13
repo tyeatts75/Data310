@@ -10,6 +10,7 @@ the best? Which ones performed the worst? Why in your estimation did certain mod
 Produce a plot that illustrates and compares all four models.
 
 - 
+![img_22.png](img_22.png)
 
 (3) Apply regularization, then add a drop out layer and finally combine both regularization with a dropout layer. 
 Produce a plot that illustrates and compares all four models. Why in your estimation did certain models perform better?
