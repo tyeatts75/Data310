@@ -14,7 +14,7 @@
 
   - [Monday's Response](mond1.md)
     
-  - 
+  - [Tuesdays Response](tues2.md)
   
   - 
   
