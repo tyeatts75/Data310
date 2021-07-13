@@ -4,17 +4,17 @@
 
 - Module 1 
   
-  - [Tuesdays Response](tues1.md)
+  - [Tuesday's Response](tues1.md)
   
-  - [Wednesday Response](wed1.md)
+  - [Wednesday's Response](wed1.md)
   
-  - [Thursday Response](thurs1.md)
+  - [Thursday's Response](thurs1.md)
 
 - Module 2
 
   - [Monday's Response](mond1.md)
     
-  - [Tuesdays Response](tues2.md)
+  - [Tuesday's Response](tues2.md)
   
   - 
   
