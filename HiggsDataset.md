@@ -19,6 +19,7 @@ issues with being overfit, as can be seen on the plot below. A similar trend can
   model is bar far the most overfit. I believe this issue with fit has to do with the model becoming more complicated
   as it gets larger. This complexity comes with more power in the model which can cause issue if proper constraints 
   are not placed on this power.
+  
 ![img_22.png](img_22.png)
 
 (3) Apply regularization, then add a drop out layer and finally combine both regularization with a dropout layer. 
