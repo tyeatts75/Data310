@@ -41,3 +41,7 @@ associated with the pooling filter provided in the example exercise (convolution
 
 (10) Stretch goal: again, instead of using misc.ascent(), apply the pooling filter to one of your transformed images.
 
+- 
+
+(11) Finally, review the following images from class and then convolve the 3x3 filter over the 9x9 
+matrix and provide the resulting matrix.
