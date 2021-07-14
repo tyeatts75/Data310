@@ -33,41 +33,29 @@ This is then done to every pixel which then in turn leads to a completely transf
 - Convolution is useful because it leads to a transformed image that highlights key aspects of the object in the
 image. This makes it much easier for a model to correctly classify, or learn how to classify, an image.
 
-(4) Stretch goal: instead of using the misc.ascent() image from scipy, can you apply three filters and weights to your 
-own selected image? Describe your results.
-
-- 
-
-(5)Another useful method is pooling. Apply a 2x2 filter to one of your convolved images, and plot the result.
+(4)Another useful method is pooling. Apply a 2x2 filter to one of your convolved images, and plot the result.
 
 ![img_27.png](img_27.png)
 
-(6) In effect what have you accomplished by applying this filter? 
+(5) In effect what have you accomplished by applying this filter? 
 
 - This filter has narrowed the image down to what it believes to be its most important aspects. It does this by taking
 2x2 sections and only keeping the largest data point within each. As can be seen in the image is made the vertical
   lines stand out even more than they did before.
 
-(7) Does there seem to be a logic (i.e. maximizing, averaging or minimizing values?) 
+(6) Does there seem to be a logic (i.e. maximizing, averaging or minimizing values?) 
 associated with the pooling filter provided in the example exercise (convolutions & pooling)? 
 
 - There does seem to be logic for conducting pooling. It narrows down the image to what the model determines to be the
 most important aspects, this leads to a smaller and less complex image. In the end this will make the model much 
   easier to train and allow for improved accuracy. 
 
-(8) Did the resulting image increase in size or decrease? 
+(7) Did the resulting image increase in size or decrease? 
 
 - The image decreased in size by quite a bit. It went from 500x500 to 250x250.
 
-(9) Why would this method be useful? 
+(8) Why would this method be useful? 
 
 - As stated above, pooling simplifies a model to its most vital data points. This allows for the model to be easier 
-trained and improves the accuracy that the model can achieve. 
-
-(10) Stretch goal: again, instead of using misc.ascent(), apply the pooling filter to one of your transformed images.
-
-- 
-
-(11) Finally, review the following images from class and then convolve the 3x3 filter over the 9x9 
-matrix and provide the resulting matrix.
+trained and improves the accuracy that the model can achieve.
 
