@@ -5,7 +5,7 @@ How many observations are in the training dataset? How many are used in the vali
 
 - The Higgs Dataset is a very large dataset, containing billions of data points. This is a much smaller snapshot of
 that that has 11,000,000 examples, each of which have 28 features. 1,000 samples are used in the validation dataset, 
-  and 10,000 are used in the training dataset. The target is a continuous variable 
+  and 10,000 are used in the training dataset. The target is a continuous variable. 
 
 (2) How did each of the four models perform (tiny, small, medium and large)? Which of the four models performed 
 the best? Which ones performed the worst? Why in your estimation did certain models perform better? 
