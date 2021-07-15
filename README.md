@@ -18,6 +18,11 @@
   
   - [Thursday's Response](thurs2.md)
 
+- Module 3
+- Module 4
+- Module 5
+
+
 
 
 ## Projects
@@ -25,3 +30,9 @@
 - [Project 1](project1.md)
 
 - Project 2
+
+- Project 3
+
+- Project 4
+
+- Final Project
