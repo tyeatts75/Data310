@@ -16,9 +16,8 @@
     
   - [Tuesday's Response](tues2.md)
   
-  - 
-  
-  - 
+  - [Thursday's Response](thurs2.md)
+
 
 
 ## Projects
