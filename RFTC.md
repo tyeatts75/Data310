@@ -59,3 +59,8 @@ most important aspects, this leads to a smaller and less complex image. In the e
 - As stated above, pooling simplifies a model to its most vital data points. This allows for the model to be easier 
 trained and improves the accuracy that the model can achieve.
 
+(9) Finally, review the following images from class and then convolve the 3x3 filter over the 9x9 matrix 
+and provide the resulting matrix.
+
+![img_28.png](img_28.png)
+
