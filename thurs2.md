@@ -6,7 +6,7 @@ eurosat dataset. Present your results and discuss the accuracy of each of model.
 
 - Bean:
 
-    - The bean model finished with ok accuracy, if more epochs were to be tested I'm sure it would be higher but at
+    -The bean model finished with ok accuracy, if more epochs were to be tested I'm sure it would be higher but at
     its current state it is nothing impressive. The third and final epoch sees the model reaching a .74 accuracy with
       a validation accuracy of .64. This means that the model was fairly overfit, which is not ideal.
       The loss did see a solid loss from each epoch to the next insinuating increases
@@ -24,7 +24,7 @@ eurosat dataset. Present your results and discuss the accuracy of each of model.
     
 - Eurosat:
   
-    - This dataset had similar results to the bean data, with an accuracy around .75. The validation accuracy was a lot
+    -This dataset had similar results to the bean data, with an accuracy around .75. The validation accuracy was a lot
 better in this model though, reaching about .75 as well. This means that this model was much less overfit and that
   overall it performed much better than the bean data.
     
@@ -43,7 +43,8 @@ implementation to the tf_flowers dataset. Apply this same method to both the bea
 Did your model performance improve? How many epochs were you able to run and how much time did it take?
     
 - Bean:
-    - Compared to the previous models, the epochs here oddly ran very quickly. The first time I ran it during class
+  
+    -Compared to the previous models, the epochs here oddly ran very quickly. The first time I ran it during class
 they took much longer, I find this quick change interesting but welcome. With the quicker epochs I ran 10 of them, 
   which is much greater than the three I ran for the previous models. Looking at the third epoch, which where I 
   stopped for the non-augmented model, this version preformed much worse. It was much less overfit, but also had
@@ -84,9 +85,12 @@ they took much longer, I find this quick change interesting but welcome. With th
 
 - Eurosat:
 
-    - Unliked the augmented bean data, the augmented eurosat dataset took much longer to load so only three epochs were used. Comparing this model to the non-augmented version, this one performed much worse. It has an accuracy around .68, and oddly a higher validation accuracy at .71. Looking at both these datasets, it appears that augmentation consistently decreases the accuracy of a model.
-
-    
+  -Unlike the augmented bean data, the augmented eurosat dataset took much longer to load so only three epochs 
+      were used. Comparing this model to the non-augmented version, this one performed much worse. It has an accuracy 
+      around .68, and oddly a higher validation accuracy at .71. Looking at both these datasets, it appears that augmentation c
+      onsistently decreases the accuracy of a model.
+      
+      
         Epoch 1/3
         675/675 [==============================] - 221s 327ms/step - loss: 1.5202 - accuracy: 0.4253 - val_loss: 1.0136 - val_accuracy: 0.6244
 
