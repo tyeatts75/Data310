@@ -13,26 +13,30 @@ eurosat dataset. Present your results and discuss the accuracy of each of model.
       in accuracy could have been seen with further epochs.
     
 
-    Epoch 1/3
-    26/26 [==============================] - 98s 4s/step - loss: 1.3429 - accuracy: 0.5345 - val_loss: 1.1093 - val_accuracy: 0.4519
-    Epoch 2/3
-    26/26 [==============================] - 98s 4s/step - loss: 0.8009 - accuracy: 0.6663 - val_loss: 0.7481 - val_accuracy: 0.6442
-    Epoch 3/3
-    26/26 [==============================] - 94s 4s/step - loss: 0.6058 - accuracy: 0.7376 - val_loss: 0.7370 - val_accuracy: 0.6442
+        Epoch 1/3
+        26/26 [==============================] - 98s 4s/step - loss: 1.3429 - accuracy: 0.5345 - val_loss: 1.1093 - val_accuracy: 0.4519
     
-- Eurostat:
+        Epoch 2/3
+        26/26 [==============================] - 98s 4s/step - loss: 0.8009 - accuracy: 0.6663 - val_loss: 0.7481 - val_accuracy: 0.6442
+        
+        Epoch 3/3
+        26/26 [==============================] - 94s 4s/step - loss: 0.6058 - accuracy: 0.7376 - val_loss: 0.7370 - val_accuracy: 0.6442
+    
+- Eurosat:
 
     -This dataset had similar results to the bean data, with an accuracy around .75. The validation accuracy was a lot
 better in this model though, reaching about .75 as well. This means that this model was much less overfit and that
   overall it performed much better than the bean data.
     
 
-    Epoch 1/3
-    675/675 [==============================] - 38s 56ms/step - loss: 1.3041 - accuracy: 0.4993 - val_loss: 0.9666 - val_accuracy: 0.6367
-    Epoch 2/3
-    675/675 [==============================] - 44s 65ms/step - loss: 0.8708 - accuracy: 0.6849 - val_loss: 0.7133 - val_accuracy: 0.7311
-    Epoch 3/3
-    675/675 [==============================] - 47s 69ms/step - loss: 0.7023 - accuracy: 0.7474 - val_loss: 0.7139 - val_accuracy: 0.7467
+        Epoch 1/3
+        675/675 [==============================] - 38s 56ms/step - loss: 1.3041 - accuracy: 0.4993 - val_loss: 0.9666 - val_accuracy: 0.6367
+        
+        Epoch 2/3
+        675/675 [==============================] - 44s 65ms/step - loss: 0.8708 - accuracy: 0.6849 - val_loss: 0.7133 - val_accuracy: 0.7311
+    
+        Epoch 3/3
+        675/675 [==============================] - 47s 69ms/step - loss: 0.7023 - accuracy: 0.7474 - val_loss: 0.7139 - val_accuracy: 0.7467
 
 (2)  Apply augmentation to a dataset example, that illustrates a resize and rescale image augmentation 
 implementation to the tf_flowers dataset. Apply this same method to both the beans and eurosat datasets. 
@@ -49,26 +53,35 @@ they took much longer, I find this quick change interesting but welcome. With th
   with room to improve. It should be noted that this model was, overall, much better fit than the previous.
     
 
-    Epoch 1/10
-    26/26 [==============================] - 10s 338ms/step - loss: 1.2110 - accuracy: 0.3809 - val_loss: 0.9305 - val_accuracy: 0.6250
-    Epoch 2/10
-    26/26 [==============================] - 10s 383ms/step - loss: 0.9120 - accuracy: 0.5683 - val_loss: 0.7619 - val_accuracy: 0.6538
-    Epoch 3/10
-    26/26 [==============================] - 11s 398ms/step - loss: 0.7977 - accuracy: 0.6566 - val_loss: 0.7151 - val_accuracy: 0.7019
-    Epoch 4/10
-    26/26 [==============================] - 11s 405ms/step - loss: 0.7344 - accuracy: 0.6832 - val_loss: 0.7365 - val_accuracy: 0.6635
-    Epoch 5/10
-    26/26 [==============================] - 11s 402ms/step - loss: 0.6722 - accuracy: 0.7183 - val_loss: 0.6058 - val_accuracy: 0.7404
-    Epoch 6/10
-    26/26 [==============================] - 12s 437ms/step - loss: 0.7251 - accuracy: 0.6856 - val_loss: 0.6460 - val_accuracy: 0.7404
-    Epoch 7/10
-    26/26 [==============================] - 11s 411ms/step - loss: 0.6545 - accuracy: 0.7400 - val_loss: 0.7643 - val_accuracy: 0.6635
-    Epoch 8/10
-    26/26 [==============================] - 12s 446ms/step - loss: 0.6224 - accuracy: 0.7352 - val_loss: 0.6354 - val_accuracy: 0.7308
-    Epoch 9/10
-    26/26 [==============================] - 13s 473ms/step - loss: 0.6109 - accuracy: 0.7485 - val_loss: 0.5538 - val_accuracy: 0.7404
-    Epoch 10/10
-    26/26 [==============================] - 13s 476ms/step - loss: 0.6005 - accuracy: 0.7388 - val_loss: 0.6200 - val_accuracy: 0.7308
+        Epoch 1/10
+        26/26 [==============================] - 10s 338ms/step - loss: 1.2110 - accuracy: 0.3809 - val_loss: 0.9305 - val_accuracy: 0.6250
+    
+        Epoch 2/10
+        26/26 [==============================] - 10s 383ms/step - loss: 0.9120 - accuracy: 0.5683 - val_loss: 0.7619 - val_accuracy: 0.6538
+    
+        Epoch 3/10
+        26/26 [==============================] - 11s 398ms/step - loss: 0.7977 - accuracy: 0.6566 - val_loss: 0.7151 - val_accuracy: 0.7019
+    
+        Epoch 4/10
+        26/26 [==============================] - 11s 405ms/step - loss: 0.7344 - accuracy: 0.6832 - val_loss: 0.7365 - val_accuracy: 0.6635
+    
+        Epoch 5/10
+        26/26 [==============================] - 11s 402ms/step - loss: 0.6722 - accuracy: 0.7183 - val_loss: 0.6058 - val_accuracy: 0.7404
+    
+        Epoch 6/10
+        26/26 [==============================] - 12s 437ms/step - loss: 0.7251 - accuracy: 0.6856 - val_loss: 0.6460 - val_accuracy: 0.7404
+    
+        Epoch 7/10
+        26/26 [==============================] - 11s 411ms/step - loss: 0.6545 - accuracy: 0.7400 - val_loss: 0.7643 - val_accuracy: 0.6635
+    
+        Epoch 8/10
+        26/26 [==============================] - 12s 446ms/step - loss: 0.6224 - accuracy: 0.7352 - val_loss: 0.6354 - val_accuracy: 0.7308
+    
+        Epoch 9/10
+        26/26 [==============================] - 13s 473ms/step - loss: 0.6109 - accuracy: 0.7485 - val_loss: 0.5538 - val_accuracy: 0.7404
+    
+        Epoch 10/10
+        26/26 [==============================] - 13s 476ms/step - loss: 0.6005 - accuracy: 0.7388 - val_loss: 0.6200 - val_accuracy: 0.7308
 
 - Eurosat:
 
@@ -78,14 +91,11 @@ they took much longer, I find this quick change interesting but welcome. With th
       augmentation consistently decreases the accuracy of a model.
     
 
-    Epoch 1/3
-
-    675/675 [==============================] - 221s 327ms/step - loss: 1.5202 - accuracy: 0.4253 - val_loss: 1.0136 - val_accuracy: 0.6244
-
-    Epoch 2/3
-
-    675/675 [==============================] - 246s 365ms/step - loss: 1.0778 - accuracy: 0.6030 - val_loss: 0.8014 - val_accuracy: 0.6837
+        Epoch 1/3
+        675/675 [==============================] - 221s 327ms/step - loss: 1.5202 - accuracy: 0.4253 - val_loss: 1.0136 - val_accuracy: 0.6244
     
-    Epoch 3/3
-    
-    675/675 [==============================] - 247s 365ms/step - loss: 0.8811 - accuracy: 0.6784 - val_loss: 0.8080 - val_accuracy: 0.7093
+        Epoch 2/3
+        675/675 [==============================] - 246s 365ms/step - loss: 1.0778 - accuracy: 0.6030 - val_loss: 0.8014 - val_accuracy: 0.6837
+   
+        Epoch 3/3
+        675/675 [==============================] - 247s 365ms/step - loss: 0.8811 - accuracy: 0.6784 - val_loss: 0.8080 - val_accuracy: 0.7093
