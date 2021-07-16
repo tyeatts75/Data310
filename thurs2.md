@@ -79,8 +79,13 @@ they took much longer, I find this quick change interesting but welcome. With th
     
 
     Epoch 1/3
+
     675/675 [==============================] - 221s 327ms/step - loss: 1.5202 - accuracy: 0.4253 - val_loss: 1.0136 - val_accuracy: 0.6244
+
     Epoch 2/3
+
     675/675 [==============================] - 246s 365ms/step - loss: 1.0778 - accuracy: 0.6030 - val_loss: 0.8014 - val_accuracy: 0.6837
+    
     Epoch 3/3
+    
     675/675 [==============================] - 247s 365ms/step - loss: 0.8811 - accuracy: 0.6784 - val_loss: 0.8080 - val_accuracy: 0.7093
