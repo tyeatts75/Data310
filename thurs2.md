@@ -84,15 +84,12 @@ they took much longer, I find this quick change interesting but welcome. With th
 
 - Eurosat:
 
-    - Unliked the augmented bean data, the augmented eurosat dataset took much longer to load so only three epochs
-    were used. Comparing this model to the non-augmented version, this one performed much worse. It has an accuracy
-      around .68, and oddly a higher validation accuracy at .71. Looking at both these datasets, it appears that
-      augmentation consistently decreases the accuracy of a model.
-    
+    - Unliked the augmented bean data, the augmented eurosat dataset took much longer to load so only three epochs were used. Comparing this model to the non-augmented version, this one performed much worse. It has an accuracy around .68, and oddly a higher validation accuracy at .71. Looking at both these datasets, it appears that augmentation consistently decreases the accuracy of a model.
 
+    
         Epoch 1/3
         675/675 [==============================] - 221s 327ms/step - loss: 1.5202 - accuracy: 0.4253 - val_loss: 1.0136 - val_accuracy: 0.6244
-    
+
         Epoch 2/3
         675/675 [==============================] - 246s 365ms/step - loss: 1.0778 - accuracy: 0.6030 - val_loss: 0.8014 - val_accuracy: 0.6837
    
