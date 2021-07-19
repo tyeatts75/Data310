@@ -44,7 +44,7 @@ Describe the model output from each of the trained metro traffic interstate data
 - The target for the iris dataset is to correctly identify the species of iris the plant is. The three potential 
 options being setosa, versicolor, and virginica.
 
-- 
+- The target for the second dataset is the volume of traffic present.
 
 (4) How would you assess the accuracy of each model?  
 Are you using a different metric for each one?  Why is this so?  What is each one measuring?
