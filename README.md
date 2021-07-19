@@ -19,6 +19,8 @@
   - [Thursday's Response](thurs2.md)
 
 - Module 3
+  
+  - [Monday's Response](mond3.md)
 - Module 4
 - Module 5
 
