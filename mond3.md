@@ -35,7 +35,7 @@ features in their current states. Since all the variables are continuous there i
 (2) Train each model and produce the output (not necessary to validate or test).  
 Describe the model output from each of the trained metro traffic interstate dataset and the iris flowers dataset.
 
--Iris Model
+-Iris Model:
 
 
     Epoch 1/10
@@ -102,7 +102,9 @@ options being setosa, versicolor, and virginica. The data points for the target 
 
 (4) How would you assess the accuracy of each model? 
 
-- The accuracy for the 
+- The accuracy for the iris dataset was either really impressive, or not accurate. The loss remained the same at each
+epoch at an extremely low figure. I assume the loss is either so small that the small change in cannot be noticed,
+  or there is some sort of issue within the model that needs to be addressed.
 
 - The accuracy for the model of the traffic volume dataset is abysmal, with a massive loss of 3525196.5 by the 10th
 and final epoch.
