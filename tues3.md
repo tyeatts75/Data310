@@ -57,14 +57,17 @@ Describe the following
 
 (7) Make some predictions
 
-- The final aspect of the model I’ll examine is its ability to predict what class future flowers belong to by 
-  assigning it new feature data. To test this I passed an array into the model using the tf.convert_to_tensor feature. 
-  The array contains data for three flowers and has numeric values for each of the four features.
-    - Here is the array of values I put into the model to make predictions:
+- The final aspect of the model I’ll examine is its ability to predict what class future flowers belong to 
+  by assigning it new feature data. To test this, I passed an array into the model using the tf.convert_to_tensor 
+  feature. The array contains data for three flowers and has numeric values for each of the four features. 
+  Once the array is passed through the model, it will give back the type of iris it believes it to be and what 
+  percentage confidence it has in that choice.
+  - Here is the array of values I put into the model to make predictions:
     -       [7.1, 4.2, 2.6, 1.5,],
             [3.2, 1.2, 1.5, 0.7,],
             [6.3, 4.1, 2.2, 2.1]
-    - The predicted type of iris for each flower are as follows:
+    
+  - The predicted type of iris for each flower are as follows:
     -       Example 0 prediction: Iris setosa (87.8%)
             Example 1 prediction: Iris versicolor (71.6%)
             Example 2 prediction: Iris setosa (82.6%)
