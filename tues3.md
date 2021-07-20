@@ -1,3 +1,3 @@
-## Tuesday (7/13) Response
+## Tuesday (7/20) Response
 
 (1)
