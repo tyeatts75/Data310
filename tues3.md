@@ -63,11 +63,13 @@ Describe the following
   Once the array is passed through the model, it will give back the type of iris it believes it to be and what 
   percentage confidence it has in that choice.
   - Here is the array of values I put into the model to make predictions:
-    -       [7.1, 4.2, 2.6, 1.5,],
-            [3.2, 1.2, 1.5, 0.7,],
-            [6.3, 4.1, 2.2, 2.1]
+    
+    - [7.1, 4.2, 2.6, 1.5]
+    - [3.2, 1.2, 1.5, 0.7]
+    - [6.3, 4.1, 2.2, 2.1]
     
   - The predicted type of iris for each flower are as follows:
-    -       Example 0 prediction: Iris setosa (87.8%)
-            Example 1 prediction: Iris versicolor (71.6%)
-            Example 2 prediction: Iris setosa (82.6%)
+    
+    - Example 0 prediction: Iris setosa (87.8%)
+    - Example 1 prediction: Iris versicolor (71.6%)
+    - Example 2 prediction: Iris setosa (82.6%)
