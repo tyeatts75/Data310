@@ -103,7 +103,7 @@ options being setosa, versicolor, and virginica. The data points for the target 
 (4) How would you assess the accuracy of each model? 
 
 - The accuracy for the iris dataset was either really impressive, or not accurate. The loss remained the same at each
-epoch at an extremely low figure. I assume the loss is either so small that the small change in cannot be noticed,
+epoch at an extremely low figure. I assume the change in loss is either so small that it cannot be noticed,
   or there is some sort of issue within the model that needs to be addressed.
 
 - The accuracy for the model of the traffic volume dataset is abysmal, with a massive loss of 3525196.5 by the 10th
