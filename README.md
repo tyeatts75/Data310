@@ -23,6 +23,8 @@
   - [Monday's Response](mond3.md)
     
   - [Tuesday's Response](tues3.md)
+
+  - [Wednesday's Response](wed3.md)
   
 - Module 4
 - Module 5
