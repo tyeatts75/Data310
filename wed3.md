@@ -55,6 +55,6 @@ around 0.62. The one improvement with this model compared to previous wealth cla
 
 - A definite trend can be seen within this model. As the target wealth class increases, the accuracy begins to plummet.
 I'm not sure if this factor can be attributed to the increase in sample size as the wealth class goes up, which would
-  explain why 5 and 4 were so similar since they have a near equal number of people, or if there was some sort of error 
+  explain why 5 and 4 had similar accuracies since they had a similar number of people, or if there was some sort of error 
   on my end in assigning feature columns. All in all this was an interesting model that with more editing of feature
-  columns hopefully could become much more accurate.
+  columns and other factors hopefully could become much more accurate.
