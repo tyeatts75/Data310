@@ -18,7 +18,7 @@ individual's wealth. Before the model could be put together we made sure to drop
 
 ![img_50.png](img_50.png)
 
-Test Accuracy: 0.7904396653175354
+- Test Accuracy: 0.7904396653175354
 
 (3) Wealth = 2
 
@@ -26,7 +26,7 @@ Test Accuracy: 0.7904396653175354
 
 ![img_52.png](img_52.png)
 
-Test Accuracy: 0.7209663987159729
+- Test Accuracy: 0.7209663987159729
 
 (4) Wealth = 3
 
@@ -34,7 +34,7 @@ Test Accuracy: 0.7209663987159729
 
 ![img_54.png](img_54.png)
 
-Test Accuracy: 0.788676917552948
+- Test Accuracy: 0.788676917552948
 
 (5) Wealth = 4
 
@@ -42,7 +42,7 @@ Test Accuracy: 0.788676917552948
 
 ![img_56.png](img_56.png)
 
-Test Accuracy: 0.880029022693634
+- Test Accuracy: 0.880029022693634
 
 (6) Wealth = 5
 
@@ -50,7 +50,7 @@ Test Accuracy: 0.880029022693634
 
 ![img_58.png](img_58.png)
 
-Test Accuracy: 0.959767758846283
+- Test Accuracy: 0.959767758846283
 
 (7) Final Observations 
 
