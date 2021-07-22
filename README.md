@@ -26,6 +26,8 @@
 
   - [Wednesday's Response](wed3.md)
   
+  - [Thursday's Response](thurs3.md)
+  
 - Module 4
 - Module 5
 
@@ -36,7 +38,7 @@
 
 - [Project 1](project1.md)
 
-- Project 2
+- [Project 2](project2.md)
 
 - Project 3
 
