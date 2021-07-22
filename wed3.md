@@ -7,7 +7,8 @@ wealth. The specific features are rather simple, being age, gender, size, and ed
   few features, setting the feature columns wasn't that complex of a task. Age was the only feature that I placed
   in the numeric column. Age also was bucketized along with edu. The remaining features, size and gender, were both 
   placed in indicator columns. The final step I did prior to training was create a crossed column for edu and age since
-  they are highly correlated. 
+  they are highly correlated. After having som issues with loss appearing as nan, I changed the batch size to 132
+  and these issues were resolved.
 
 (2) Wealth = 2
 
@@ -22,22 +23,23 @@ much praise because most of its success can be attributed to the fact it is the 
   
 (3) Wealth = 3
 
-![img_39.png](img_39.png)
+![img_45.png](img_45.png)
+
+![img_46.png](img_46.png)
 
 - This model was still ok, but far less successful than the previous wealth class. Both accuracy on the training
 group and validation group fell almost .1. This can be associated with the increase in individuals who fall within the 
-  wealth 3 range, making the model more complex and therefore harder to train. It also should be noted that there was
-  an error with the loss in this model, as it just said nan and gave no loss.
+  wealth 3 range, making the model more complex and therefore harder to train. 
 
 (4) Wealth = 4
 
-![img_41.png](img_41.png)
+![img_47.png](img_47.png)
 
-![img_42.png](img_42.png)
+![img_48.png](img_48.png)
 
-- This model was far, far worse than the previous two, reaching a peak accuracy of 0.66. The loss appeared to have a
-  consistent decline, but once again the validation loss giving an output of nan. This model also saw the validation
-  accuracy slip farther below the training accuracy than it had previously. 
+- This model was far, far worse than the previous two, reaching a peak accuracy of around 0.66. The training loss 
+  appeared to have a consistent decline, but the validation loss was a little unpredictable. With this odd movement in
+  validation loss, the validation accuracy saw odd movement as well, with it ending lower than it started. 
 
 (5) Wealth = 5
 
