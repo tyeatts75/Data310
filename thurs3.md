@@ -59,5 +59,5 @@ inverse of which wealth group had the most accurate model. The first wealth grou
   which is bigger than the second group, who had accuracy's in the low to mid 70s. Group three then saw accuracy rise 
   back up to be almost the same as group 1. Both wealth group's 4 and 5 saw a massive jump in accuracy. Group 4 had an 
   accuracy in the high 80s and group 5 reached the very high 90s. This shows that as wealth gets higher the feature's
-  were used were much better indicators. This model had zero issue with being overfit as the training and test data 
+  we used were much better indicators. This model had zero issue with being overfit as the training and test data 
   were almost always on par with one another.
