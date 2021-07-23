@@ -28,7 +28,11 @@
   
   - [Thursday's Response](thurs3.md)
   
+  - [EC Speaker Writeup](ECSR.md)
+  
 - Module 4
+  
+  -
 - Module 5
 
 
