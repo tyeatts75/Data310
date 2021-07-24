@@ -42,8 +42,8 @@
 
 - [Project 1](project1.md)
 
-- [Project 2](project2.md)
+- [Project 3](project2.md)
 
-- Project 3
+- Project 4
 
 - Final Project
