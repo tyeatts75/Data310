@@ -15,7 +15,9 @@
 
 - Worst 
 
-    - Filler text
+    - The second wealth group had the worst accuracy, resting in the low 70s. It also was not overfit with a test 
+  accuracy of 0.7417047023773193. Although, the accuracy also seems to remain for stagnant across epochs which is 
+      very odd.
     
 ![img_69.png](img_69.png)         ![img_70.png](img_70.png)
 
@@ -23,6 +25,11 @@
 
 ![img_68.png](img_68.png)         ![img_71.png](img_71.png)
 
+   - After examining the confusion matrix's for both models it quickly can be discovered that neither model is really
+that good. The only reason the 5th wealth class has such a higher accuracy is because it has less individuals within it
+     than any of the other classes. This model has failed to classify any of the target's correctly within the binary
+     model. This puts forth the idea that accuracy cannot always be trusted as an accurate measurement, especially within
+     a binary model like this.
 
 (2) Categorical Target Models
 
