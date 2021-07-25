@@ -10,22 +10,18 @@
       size was left at 256, the optimizer adam performed the best compared to others I tried, and all the features
       were assigned to the correct Keras Preprocessing Layers. 
 
-![img_60.png](img_60.png)
-
-![img_59.png](img_59.png)     
+![img_60.png](img_60.png)         ![img_59.png](img_59.png)     
 
 
 - Worst 
 
     - Filler text
     
-
-
-    
-
+![img_61.png](img_61.png)         ![img_62.png](img_62.png)
 
 - Confusion Matrix and Analysis 
 
+![img_64.png](img_64.png)         ![img_63.png](img_63.png)
 
 (2) Categorical Target Models
 
