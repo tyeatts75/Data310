@@ -74,3 +74,7 @@ abysmal accuracy and pretty much fails to classify all individuals in the second
 
 - With the feature columns model performing so poorly I decided to make some changes to the categorical keras
   preprocessing layers model in an effort to make improvements.
+  
+- After toying around with dropping various features and combinations of features I found no combination of variables
+that improved my model. This is very odd, even when I removed the features that were missing a lot of data points the
+  model still seemed to be better off beforehand. 
