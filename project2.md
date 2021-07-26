@@ -33,10 +33,7 @@ that good. The only reason the 5th wealth class has such a higher accuracy is be
 
 (2) Categorical Target Models
 
-- Best
-
-
-- Worst
+- 
 
 
 - Confusion Matrix and Analysis 
