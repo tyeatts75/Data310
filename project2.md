@@ -33,10 +33,44 @@ that good. The only reason the 5th wealth class has such a higher accuracy is be
 
 (2) Categorical Target Models
 
-- 
+- The model that examines all categorical targets did very poorly. It had a test accuracy of 0.5162795782089233 and 
+the training and validation accuracies were both very low as well. To calculate loss for this model I used
+  Sparse Categorical Crossentropy; similarly, I used Sparse Categorical Accuracy to get the accuracy. I also needed
+  to change the density in the last layer of the model to six to get the model to run and account for all five
+  targets.
 
+![img_72.png](img_72.png)
+
+![img_73.png](img_73.png)
 
 - Confusion Matrix and Analysis 
 
+![img_65.png](img_65.png)
+
+  - Examining the confusion matrix this model did much better than the last because it could actually classify some
+of the variables. It appears most of the misclassified individuals were typically not too far from their correct class,
+    usually being only one over. With some more work, this model has lots of room for improvement. 
 
 (3) Results of structured data with feature columns models
+
+- Initial Model
+
+![img_76.png](img_76.png)
+
+![img_75.png](img_75.png)
+
+![img_74.png](img_74.png)
+
+
+  - This model is very poor, much worse than the previous categorical model with the preprocessing layers. It has an
+abysmal accuracy and pretty much fails to classify all individuals in the second and third wealth classes. In regards
+    which features I put in each feature columns I kept it pretty simple. I put weights and units as numeric, I
+    bucketized age, size, and education, and then I placed location, cook, car, electric, toilet, potable,
+    gender all within indicator columns. With the poor success of this model I feel it may be more worth my time to
+    try and improve the previous model.
+    
+
+(4) Model Improvement
+
+- With the feature columns model performing so poorly I decided to make some changes to the categorical keras
+  preprocessing layers model in an effort to make improvements.
