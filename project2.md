@@ -66,15 +66,27 @@ of the variables. It appears most of the misclassified individuals were typicall
 abysmal accuracy and pretty much fails to classify all individuals in the second and third wealth classes. In regards
     which features I put in each feature columns I kept it pretty simple. I put weights and units as numeric, I
     bucketized age, size, and education, and then I placed location, cook, car, electric, toilet, potable,
-    gender all within indicator columns. With the poor success of this model I feel it may be more worth my time to
-    try and improve the previous model.
+    gender all within indicator columns. 
     
 
 (4) Model Improvement
 
 - With the feature columns model performing so poorly I decided to make some changes to the categorical keras
   preprocessing layers model in an effort to make improvements.
-  
-- After toying around with dropping various features and combinations of features I found no combination of variables
+    - After toying around with dropping various features and combinations of features I found no combination of variables
 that improved my model. This is very odd, even when I removed the features that were missing a lot of data points the
   model still seemed to be better off beforehand. 
+      
+- With there being a very low accuracy in my multiclass feature column model, I feel that it would be worth going back 
+  and trying to improve. I began my dropping the columns unit and weights as I feel they are not the most important. I 
+  then went back and redid some of my columns as I think I made some errors in my assigning of features. I changed it so
+  age was my only buckitized column, and then size, age, and education were all numeric. The indicator columns were all
+  left the same as the previous model.
+    - These changes drastically improved the model, with a test accuracy of 0.5774574875831604. This makes it my best
+  multiclass model yet. Below are my graphs and confusion matrix:
+      
+![img_77.png](img_77.png)
+
+![img_78.png](img_78.png)
+
+![img_79.png](img_79.png)
