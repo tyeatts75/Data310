@@ -90,3 +90,12 @@ that improved my model. This is very odd, even when I removed the features that 
 ![img_78.png](img_78.png)
 
 ![img_79.png](img_79.png)
+
+
+- Before settling on this as the best model I wanted to pursue some variable improvement. To test this I made some 
+slight changes to the toilet feature. Due to there being many aspects of the feature that could be combined into one I
+  consolidated the variables into three columns. After doing this I ran the model to see if it was worth pursuing for
+  other features as well. The resulting model was actually slightly worse, with a test accuracy of 0.5682289600372314.
+  With this being said I think the previous model may be the best model to stick with.
+  
+![img_80.png](img_80.png)
