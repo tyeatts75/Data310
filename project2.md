@@ -99,3 +99,21 @@ slight changes to the toilet feature. Due to there being many aspects of the fea
   With this being said I think the previous model may be the best model to stick with.
   
 ![img_80.png](img_80.png)
+
+
+(5) ROC Curve
+
+- Just to experiment, I returned to the binary models from the start to create an ROC Curve. Before altering any of the
+code here is what the curve looked like:
+  
+![img_81.png](img_81.png)
+
+
+- I felt with some slight adjustments improvements could be made on the curve, as well as our binary model. The first
+step was to adjust how y_pred was measured. To do this I simply took the predicted target values and sorted them by if
+  they were bigger or smaller than 0.5. I also added activation equals sigmoid to the final dense layer before running
+  the model. This not only fixed my issues with the ROC Curve, but also made for a much better confusion matrix.
+
+![img_82.png](img_82.png)
+
+![img_83.png](img_83.png)
