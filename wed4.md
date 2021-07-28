@@ -1,6 +1,7 @@
 ## Wednesday (7/28) Response
 
 (1) Show Images and Results
+
 Primary Image:
 ![img_86.png](img_86.png)
 
