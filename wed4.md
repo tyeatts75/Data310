@@ -25,8 +25,41 @@ Final Product:
      heavy workload of the jump-start program, I still got to have a fun summer and partake in lots of cool and new 
      things.
 
+(3) Steps
 
-(3) Stretch Goal (Deep Dream)
+- (1) Define content and style representations
+
+     - The first step of the model is to get the content and style versions of the image. To do this a VGG19 network is 
+     used, which is a pretrained classification network that works specifically on images. The layers of the network
+       work to define the images.
+       
+- (2) Extracting style and content
+
+     - This second step is fairly simple, this where the model is built. The model that is created here should output
+     the style and content images as tensors.
+       
+- (3)Implementing the style transfer algorithm
+
+     - The style transfer algorithm works by calculating mean square error of the image's output in coordination with
+     the targets. After this, the weighted sum of each is taken on the losses.
+
+- (4) Apply regularization term on the high frequency components
+
+     - The fourth and final step is to do some regularization. The basic implementation used up to this point 
+       unfortunately leads to an abundance of high frequency artifacts. This step looks to address this issue. 
+       To go about decreasing them an explicit regularization term is used on the components with a very high
+       frequency. This step is often time referred to as total variance lost.
+
+(4) What my work means in relation to my future in data science
+
+- Along with the points I mentioned earlier, these images also can be related to my future in data science. The first
+image represents me having to work really hard to get to where I want to be in my career. A career in data science will
+  take a lot of work and effort and I feel the first image represents that well. The second image doesn't connect too
+  well but if I had to make a connection I would say that since the painting is in Chicago, and Chicago has lots of tall 
+  buildings, it represents my knowledge in data science going up.
+
+
+(5) Stretch Goal (Deep Dream)
 
 
 ![img_89.png](img_89.png)
