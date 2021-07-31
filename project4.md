@@ -8,7 +8,8 @@ The script we produced using our RNN model is linked [here](script.md)
 
 (2) Did your output seem to generate text that was relying more on the entire corpus of your screenplay (i.e. more associated with long-term memory) or was it also able to incorporate some more immediate sequential associations (i.e. more associated with short-term memory)?
 
-- 
+- Our model did a little bit of both. If you look at the majority of the script, one character would say a phrase, and then the next character would say something else unrelated. This is an example of long-term memory. However, there were a couple of instances where the dialogue exchange made some sense. For example, at one point Elastigirl says, ‘whatever happened to ''ladies first''?’ Mr Incredible then responds, ‘well, whatever happened to equal treatment?’ This exchange seems like a conversation that would take place in a real movie script. It shows the model using its short term memory to create a text that plays off of itself. Although most of the script was nonsensical, it was still cool to see that our code generated sentences that made sense, and occasionally exchanges that made sense. Overall we were pleased with the result.
+
 
 (3) Did you make any changes to the model itself?
 
