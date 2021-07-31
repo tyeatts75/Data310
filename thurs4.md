@@ -5,32 +5,33 @@
 - The goal of this script is to create a model that imputs a script and then creates its own script from that imported
 text. This example used Romeo and Juliet, here are the results of my model:
 
-    - ROMEO: With cainus.
+    - KING RICHARD II:
+      Come yor I may believe you post adide;
+      And I are come to Plandageous lend
+      Their transmen feign that, march'd to this Pedarous!
+      Hear me speak for I Clarence, do you think, you here is now.
       
-      VOMFETIS:Nome! No, we man thou sirraty, Bediging yet on yet, orh proscesp traitand, With were him. with a vollitamed. 
-      Sorray, like the ackon'd king and 
-      love of dive and lise; As king one our arucument of lord I have ne'll gord, You frieve that vilet lequet on fears.
+      PROSPERO:
+      O heavens! Rale old fear, Signior Gremio.
+      Thou hast clean disnior brother Montague?
+      As on a cause I have been doged, like lightnoos, if
+      Without any furgetted man:
+      Clarence, help, though mine enemies;
+      I'll follow'd in duty, and as we def ass
+      swiftly but a despair of you to't: give thy slave,
+      That once point store of this: he delivered using mooth
+      As when the searchables wretched hours.
+      Here in this coffing turness precass,
+      A watchful sprite. Will't plegeate to lose away.
       
-      Sitone: I collmenter now, Unllaght fromor, perculander: I hone copprarabll:Boy'd thy first what fetly contuer is 
-      hones, therefore lard in a moumpy was my ictur again;
-      And sard I devere as exer, withough lay's
-      To charbs frient to fleat.
-      SCpeacens arains, thisp forizes:
-      Anf trinoc: Pratue thou will are marry countling with flie.
+      CAMILLO:
+      I would he pray,
+      That thought these knows leins, your eye-grave for a child.
       
-      AMENII:
-      You knee or the catuly. Sage issed, do your ford wither;
-      Aight gond thou masteres beckin be comitunal,; I am not thou nord
-      Woll! why, father more
-      Meink some amont goon unocked is all;
-      Withow your liegh, feering erem outless but.
-      
-      SICFroRIZA:
-      You wellen'd sinter whichs: fran; to how they westing.
-      
-      SOSPERSIO:
-      A will know, I breghty brotherr woulds;
-      Ane the duhes of, wenten the
+      DUCHESS OF YORK:
+      Had muffled here, for mine eyes,--which way
+      I will withdraw with us, and let us hear,
+      You both, and well Ino
 
 
 (2) Steps:
@@ -51,8 +52,8 @@ text. This example used Romeo and Juliet, here are the results of my model:
       train the model. Before training can begin standard sparse categorical crossentropy is applied for the loss
       function and adam is used as the optimizer. This model also implements a feature to save various checkpoints
       throughout the model to make sure text is saved during training. Once these steps are complete the model can be
-      executed. Due to the long runtime only 3 epochs were used for this model. The loss of the third and final epoch
-      was 1.7221.
+      executed. Due to the long runtime only 20 epochs were used for this model. The loss of the final epoch
+      was 0.7284.
     
 - (3)Generating text
 
