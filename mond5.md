@@ -28,7 +28,7 @@
         - Generosity
         - Perceptions of corruption
     
-    - Each of the figures presented, aside from GDP per capita, taken from the Gallup World Poll. This poll surveyed
+    - Each of the features presented, aside from GDP per capita, taken from the Gallup World Poll. This poll surveyed
     citizens from each country and asked them to rank its country on each feature on a scale of 0 to 10. The data was
       made representative by using Gallup's weights, which explains the specific numbers each country has for their
       various features.
