@@ -31,3 +31,10 @@
     citizens from each country and asked them to rank its country on each feature on a scale of 0 to 10. The data was
       made representative by using Gallup's weights, which explains the specific numbers each country has for their
       various features.
+          
+    - Target is Happiness Report Score
+    
+    - 2 Removable Columns 
+    
+        - Country Name
+        - Overall Happiness Rank
