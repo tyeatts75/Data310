@@ -25,24 +25,18 @@
       
         - School
         - School Setting
-        
             - Urban, Rural, or Suburban
         - School Type
-    
             - Public or Non-public
         - Classroom
-    
             - I'm unsure has so what these features mean
         - Teaching Method
-            
             - Standard or Experimental
         - Student ID
         - Gender
         - Lunch
-    
             - Does not qualify or Qualifies for reduced/free lunch
         - Pretest
-            
             - Score student got on pretest assessment 
           
     - Target is Student Post-Test Score
