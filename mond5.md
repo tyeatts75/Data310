@@ -13,7 +13,7 @@
      is enrolled in, to information specific to the student. This information can be used to train a model that can 
      predict a student’s post-test score, which will allow school systems to have the ability to predict how well each 
      student will score and have the opportunity to try and give them extra help. I will train the model using feature 
-     columns to train a continuous target model. I’ll then expirement with different combinations of the various 
+     columns to train a continuous target model. I’ll then experiment with different combinations of the various 
      features to create the best model possible.
 
 
