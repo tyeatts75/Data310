@@ -51,4 +51,4 @@
 
 - [Project 4](project4.md)
 
-- Final Project
+- [Final Project](final.md) 

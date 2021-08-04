@@ -32,6 +32,8 @@
         - Classroom: I'm unsure has so what these features mean
           
         - Teaching Method: Standard or Experimental
+    
+        - Number of Students in Class
           
         - Student ID
           
